@@ -536,7 +536,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "~/Downloads/saria.csv",
+    "bom_export_filename": "~/Downloads/rp2040board.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -729,6 +729,24 @@
           "group_by": false,
           "label": "Exclude from BOM",
           "name": "Exclude from BOM",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S3.3",
+          "name": "KLC_S3.3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.1",
+          "name": "KLC_S4.1",
           "show": false
         }
       ],
@@ -780,7 +798,7 @@
         "uuid": "893e5a44-85a0-4015-9301-a12954441b17"
       }
     ],
-    "used_designators": "H1,SW1-3,D1-2,C1-17,Y1,#PWR1-43,R1-9,CN1,J1-34,U1-5",
+    "used_designators": "USBC1,H1,SW1-3,D1-2,C1-17,Y1,#PWR1-45,USB1,LED1,R1-9,CN1,J1-34,U1-5",
     "variants": []
   },
   "sheets": [

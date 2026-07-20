@@ -5,146 +5,6 @@
 	(uuid "893e5a44-85a0-4015-9301-a12954441b17")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Connector:Conn_01x01_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Pin"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x01_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
@@ -1239,209 +1099,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at -1.27 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LED_Small"
-				(at -4.445 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode light-emitting-diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_Small_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -2036,6 +1693,585 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "custom:2.0mm_16x1_castellated_half_hole"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -0.508 1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "custom:2.0mm_16x1_castellated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "2.0mm_16x1_castellated_half_hole_0_1"
+				(rectangle
+					(start -1.27 0)
+					(end 0 -40.64)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2.0mm_16x1_castellated_half_hole_1_1"
+				(pin input line
+					(at 2.54 -1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -6.35 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -8.89 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -11.43 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -13.97 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -16.51 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -19.05 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -21.59 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -24.13 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -26.67 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -29.21 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -31.75 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -34.29 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -36.83 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -39.37 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:0603Whitelight_C2290"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LED"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0603White light_C2290"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:LED0603-R-RD_WHITE"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "0603"
+				(at 0 -24.13 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "KENTO"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "KT-0603W"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C2290"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Light Emitting Diodes (LED)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0603Whitelight_C2290_0_1"
+				(polyline
+					(pts
+						(xy -3.81 2.03) (xy -2.79 1.52) (xy -3.3 1.02) (xy -3.81 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.79 3.05) (xy -1.78 2.54) (xy -2.29 2.03) (xy -2.79 3.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.03 0.25) (xy -3.81 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.76) (xy -1.27 -3.3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.02 1.27) (xy -2.79 3.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.79) (xy -1.27 -1.27) (xy 1.27 0.51) (xy 1.27 -2.79)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -1.27 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4952,6 +5188,12 @@
 		(uuid "2078680b-4af8-499b-9955-fed45c75981d")
 	)
 	(junction
+		(at 290.83 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a0f0146-b080-45c1-b4d3-9600859a07c8")
+	)
+	(junction
 		(at 215.9 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4970,12 +5212,6 @@
 		(uuid "54ca2598-b6fe-461c-8b5a-68d5f71d7543")
 	)
 	(junction
-		(at 246.38 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d6ed9a1-f7f8-4c70-939f-6965452ab867")
-	)
-	(junction
 		(at 356.87 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4992,6 +5228,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70463532-5eac-4c29-8855-46fd64e17758")
+	)
+	(junction
+		(at 290.83 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7176e778-29a7-4899-81b5-9718195180d1")
 	)
 	(junction
 		(at 246.38 27.94)
@@ -5126,6 +5368,10 @@
 		(uuid "e5a7e788-3af5-4fd7-b14b-c15ad7ebfe93")
 	)
 	(no_connect
+		(at 317.5 54.61)
+		(uuid "197f48df-6548-49c6-a02b-288ab5eeafe5")
+	)
+	(no_connect
 		(at 391.16 181.61)
 		(uuid "493a6733-0a64-4a76-80f7-f4a965f070b0")
 	)
@@ -5136,6 +5382,14 @@
 	(no_connect
 		(at 391.16 184.15)
 		(uuid "cb183cc7-5514-4efd-814e-dda2d13fd5a7")
+	)
+	(no_connect
+		(at 317.5 49.53)
+		(uuid "d2ce0276-2704-4e8d-81dd-ea99e06686fd")
+	)
+	(no_connect
+		(at 317.5 52.07)
+		(uuid "eeaa5ccc-e9a1-4f42-90f8-1ba7bd3719a5")
 	)
 	(wire
 		(pts
@@ -5156,6 +5410,26 @@
 			(type default)
 		)
 		(uuid "0201a09b-63d8-4d34-9a0f-0f4c1f35256c")
+	)
+	(wire
+		(pts
+			(xy 280.67 83.82) (xy 288.29 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02e53cce-cde5-4228-9fb4-e2857384c0f1")
+	)
+	(wire
+		(pts
+			(xy 293.37 101.6) (xy 300.99 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f849f7-03a8-44b8-b5e3-22615ec120f7")
 	)
 	(wire
 		(pts
@@ -5209,6 +5483,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 86.36) (xy 288.29 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07786a6d-aa2b-46da-a293-9f293911b900")
+	)
+	(wire
+		(pts
 			(xy 302.26 147.32) (xy 302.26 148.59)
 		)
 		(stroke
@@ -5229,6 +5513,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 101.6) (xy 288.29 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b38396a-9f67-46b4-adc8-e1cb1842494e")
+	)
+	(wire
+		(pts
 			(xy 195.58 66.04) (xy 195.58 67.31)
 		)
 		(stroke
@@ -5246,6 +5540,16 @@
 			(type default)
 		)
 		(uuid "0dfbf08e-4b8e-497e-8b19-f4e5a6f76384")
+	)
+	(wire
+		(pts
+			(xy 293.37 86.36) (xy 300.99 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e30e507-2a6b-41d5-9de4-3c2a1507eb84")
 	)
 	(wire
 		(pts
@@ -5369,6 +5673,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 93.98) (xy 300.99 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f29d4a0-3fba-447c-adab-37ab5ce12df5")
+	)
+	(wire
+		(pts
 			(xy 317.5 125.73) (xy 326.39 125.73)
 		)
 		(stroke
@@ -5439,16 +5753,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.754 186.69) (xy 322.834 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28ccccc1-3231-4d46-b131-9a6fec69e47d")
-	)
-	(wire
-		(pts
 			(xy 345.44 29.21) (xy 341.63 29.21)
 		)
 		(stroke
@@ -5476,6 +5780,16 @@
 			(type default)
 		)
 		(uuid "297fd6df-dd38-4ccf-83ba-8646b6302940")
+	)
+	(wire
+		(pts
+			(xy 293.37 116.84) (xy 300.99 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bb102e3-6428-40f4-9ed0-8ab7fe0be3f3")
 	)
 	(wire
 		(pts
@@ -5559,6 +5873,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 99.06) (xy 300.99 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30dfe986-6f76-4583-8441-531f07f9be5d")
+	)
+	(wire
+		(pts
 			(xy 317.5 72.39) (xy 326.39 72.39)
 		)
 		(stroke
@@ -5566,6 +5890,16 @@
 			(type default)
 		)
 		(uuid "3209ea3f-eea2-4a08-ae5e-cc6f743b2cb0")
+	)
+	(wire
+		(pts
+			(xy 293.37 78.74) (xy 300.99 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b7d8c1-7d22-4562-8917-cafef6c98e89")
 	)
 	(wire
 		(pts
@@ -5596,6 +5930,16 @@
 			(type default)
 		)
 		(uuid "33d99363-c46d-4305-87f1-1fb3488c8e7c")
+	)
+	(wire
+		(pts
+			(xy 280.67 106.68) (xy 288.29 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "356b16d5-3711-426d-a2b4-e9f2b16bd7c8")
 	)
 	(wire
 		(pts
@@ -5639,6 +5983,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 81.28) (xy 300.99 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c35c69c-93dc-4548-9798-cb9a146e28f3")
+	)
+	(wire
+		(pts
 			(xy 354.33 29.21) (xy 354.33 31.75)
 		)
 		(stroke
@@ -5659,6 +6013,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 88.9) (xy 288.29 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e521a27-1029-479c-a5e6-f2511da181d2")
+	)
+	(wire
+		(pts
 			(xy 397.51 224.79) (xy 397.51 228.6)
 		)
 		(stroke
@@ -5666,6 +6030,16 @@
 			(type default)
 		)
 		(uuid "3f766f5d-e07d-42c5-87ed-e7c957f7da8f")
+	)
+	(wire
+		(pts
+			(xy 280.67 99.06) (xy 288.29 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4011a7d9-8534-4181-be7d-931c3dc0d0ac")
 	)
 	(wire
 		(pts
@@ -5706,6 +6080,26 @@
 			(type default)
 		)
 		(uuid "47a5a77b-9f2b-49a3-815c-c7d081f11828")
+	)
+	(wire
+		(pts
+			(xy 293.37 88.9) (xy 300.99 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48bff307-d831-4d6d-81d8-a7a3682c890c")
+	)
+	(wire
+		(pts
+			(xy 280.67 104.14) (xy 288.29 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48ff1887-8a4d-4972-8ddc-ff428678653a")
 	)
 	(wire
 		(pts
@@ -5756,6 +6150,16 @@
 			(type default)
 		)
 		(uuid "50515af5-8d40-4d55-b5f1-dad235027031")
+	)
+	(wire
+		(pts
+			(xy 293.37 83.82) (xy 300.99 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54f0ea80-9846-4728-bf98-cdfdb0c9f3af")
 	)
 	(wire
 		(pts
@@ -5849,6 +6253,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 81.28) (xy 290.83 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62d5f9f5-270e-4182-bbe5-08b9eb5da225")
+	)
+	(wire
+		(pts
 			(xy 325.12 40.64) (xy 323.85 40.64)
 		)
 		(stroke
@@ -5859,7 +6273,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 243.84) (xy 388.62 243.84)
+			(xy 382.27 243.84) (xy 383.54 243.84)
 		)
 		(stroke
 			(width 0)
@@ -5906,6 +6320,26 @@
 			(type default)
 		)
 		(uuid "65dfe1cd-110c-4df4-81c2-d92731f8a7c9")
+	)
+	(wire
+		(pts
+			(xy 280.67 111.76) (xy 288.29 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "660f6deb-0589-48d3-9fa5-c7a91a5c71a3")
+	)
+	(wire
+		(pts
+			(xy 280.67 96.52) (xy 288.29 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6704a0cf-50a9-47fa-b0fb-879e2aacd806")
 	)
 	(wire
 		(pts
@@ -5976,6 +6410,16 @@
 			(type default)
 		)
 		(uuid "6db8b690-9ff7-42cd-b965-21efefbcc0c9")
+	)
+	(wire
+		(pts
+			(xy 280.67 116.84) (xy 290.83 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dbe0570-874e-4a1c-bebf-0e77c21ffe81")
 	)
 	(wire
 		(pts
@@ -6079,6 +6523,26 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 96.52) (xy 300.99 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "791a7f79-5baf-4b72-a6b3-ad529a0a5a6b")
+	)
+	(wire
+		(pts
+			(xy 280.67 93.98) (xy 288.29 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e7e945-4191-4c6c-b6e5-f8047b997987")
+	)
+	(wire
+		(pts
 			(xy 283.21 35.56) (xy 283.21 38.1)
 		)
 		(stroke
@@ -6179,6 +6643,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 109.22) (xy 288.29 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8701118b-8cbe-454f-af5e-0c898628dfa0")
+	)
+	(wire
+		(pts
 			(xy 317.5 110.49) (xy 326.39 110.49)
 		)
 		(stroke
@@ -6186,6 +6660,16 @@
 			(type default)
 		)
 		(uuid "88aac9f7-eef3-4a16-941c-4f06ed1b27fb")
+	)
+	(wire
+		(pts
+			(xy 280.67 78.74) (xy 288.29 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ffb84e-2edd-46ca-8408-4cce6a00ab23")
 	)
 	(wire
 		(pts
@@ -6226,16 +6710,6 @@
 			(type default)
 		)
 		(uuid "923aad54-3b0f-4f13-883b-afeab092e2d4")
-	)
-	(wire
-		(pts
-			(xy 322.834 179.07) (xy 322.834 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9303f128-39b1-4159-9e6b-6fdc9d8ce2e3")
 	)
 	(wire
 		(pts
@@ -6319,6 +6793,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 106.68) (xy 300.99 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9820de60-ee16-4e90-8207-62d596c22c2e")
+	)
+	(wire
+		(pts
 			(xy 302.26 148.59) (xy 312.42 148.59)
 		)
 		(stroke
@@ -6389,6 +6873,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 91.44) (xy 288.29 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa0adadc-70b1-4cbd-a5e8-80e90269b4d4")
+	)
+	(wire
+		(pts
 			(xy 332.74 148.59) (xy 332.74 151.13)
 		)
 		(stroke
@@ -6436,16 +6930,6 @@
 			(type default)
 		)
 		(uuid "b3593f33-1a8c-4126-b9a3-8abd65112ce8")
-	)
-	(wire
-		(pts
-			(xy 322.834 186.69) (xy 322.834 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3d8c9dd-b7d8-4277-b3b0-89231e943a21")
 	)
 	(wire
 		(pts
@@ -6619,6 +7103,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 114.3) (xy 300.99 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c545bd83-df02-4041-8647-2da7beebcc56")
+	)
+	(wire
+		(pts
 			(xy 400.05 54.61) (xy 389.89 54.61)
 		)
 		(stroke
@@ -6656,6 +7150,16 @@
 			(type default)
 		)
 		(uuid "cc35d87c-ef27-4cfe-bbbb-f0a30b9e9453")
+	)
+	(wire
+		(pts
+			(xy 293.37 104.14) (xy 300.99 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd2bc7bd-4011-49af-b478-55d907683edc")
 	)
 	(wire
 		(pts
@@ -6749,6 +7253,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 91.44) (xy 300.99 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e1d4bd-5287-484d-8159-f4b1ac78bcc2")
+	)
+	(wire
+		(pts
 			(xy 115.57 38.1) (xy 121.92 38.1)
 		)
 		(stroke
@@ -6769,16 +7283,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.834 181.61) (xy 317.754 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da7b2436-7aac-4482-9b4c-e9ba290d89d4")
-	)
-	(wire
-		(pts
 			(xy 111.76 33.02) (xy 115.57 33.02)
 		)
 		(stroke
@@ -6786,6 +7290,16 @@
 			(type default)
 		)
 		(uuid "dac5eaf9-811c-44a6-852d-32983b2befc1")
+	)
+	(wire
+		(pts
+			(xy 280.67 114.3) (xy 288.29 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db070173-0251-4fa0-829a-0661a0203d50")
 	)
 	(wire
 		(pts
@@ -6889,6 +7403,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 109.22) (xy 300.99 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c91f30-3dab-4653-9a8b-68e4c126c71f")
+	)
+	(wire
+		(pts
 			(xy 316.23 41.91) (xy 312.42 41.91)
 		)
 		(stroke
@@ -6916,6 +7440,26 @@
 			(type default)
 		)
 		(uuid "e980887d-5cf9-401b-ac32-91e15e459dd1")
+	)
+	(wire
+		(pts
+			(xy 280.67 81.28) (xy 290.83 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e982c942-3cdc-4d84-8e3b-c1b0f7f3e36a")
+	)
+	(wire
+		(pts
+			(xy 293.37 111.76) (xy 300.99 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea73f83a-f9bf-480a-905c-34b8d8f7a2f2")
 	)
 	(wire
 		(pts
@@ -7117,6 +7661,16 @@
 		)
 		(uuid "ffb503e1-19d0-4b01-84de-e0d731a7a81a")
 	)
+	(label "GPIO07"
+		(at 288.29 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "00300ef8-12e1-424c-a2bb-2a625d4004cf")
+	)
 	(label "GPIO10"
 		(at 317.5 74.93 0)
 		(effects
@@ -7187,6 +7741,26 @@
 		)
 		(uuid "1a7f4605-eba6-4aad-bcf1-b0e95b39a214")
 	)
+	(label "GPIO27"
+		(at 293.37 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20c9a778-3b01-44b5-a729-412f5fb16dda")
+	)
+	(label "GPIO04"
+		(at 288.29 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "27644cc0-152a-495d-bd6e-b337899d8596")
+	)
 	(label "GPIO26"
 		(at 317.5 118.11 0)
 		(effects
@@ -7247,6 +7821,16 @@
 		)
 		(uuid "37529e7f-c14c-4638-a08f-552be8469a00")
 	)
+	(label "RST"
+		(at 293.37 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3981ed5b-72f4-4810-b9d7-dd2bc2963339")
+	)
 	(label "sD-"
 		(at 220.98 43.18 180)
 		(effects
@@ -7277,6 +7861,16 @@
 		)
 		(uuid "436f905a-5f83-45c6-a3c1-79ad359d9bd3")
 	)
+	(label "GPIO06"
+		(at 288.29 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "46d384c4-38c3-4466-8ff8-e8dc635726ec")
+	)
 	(label "VSYS"
 		(at 241.3 22.86 0)
 		(effects
@@ -7286,6 +7880,16 @@
 			(justify left bottom)
 		)
 		(uuid "479fe884-481c-459d-aece-3d497e52a75e")
+	)
+	(label "GPIO25"
+		(at 293.37 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48fcf1f5-7b4a-424c-994a-86d49d3f7ae7")
 	)
 	(label "SWCLK"
 		(at 397.51 114.3 180)
@@ -7327,6 +7931,16 @@
 		)
 		(uuid "54f3ee94-ba33-4414-bbc1-fd2ac38a592f")
 	)
+	(label "GPIO19"
+		(at 293.37 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "577c7ccd-27b8-4e37-9040-bd97f34522ef")
+	)
 	(label "sD-"
 		(at 228.6 57.15 0)
 		(effects
@@ -7367,6 +7981,26 @@
 		)
 		(uuid "6537e527-3639-4986-8c1f-973c3a0714f0")
 	)
+	(label "GPIO15"
+		(at 288.29 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6628b718-4d0c-41b1-aab3-78a60073c24c")
+	)
+	(label "GPIO13"
+		(at 288.29 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "68522c47-ded3-4649-9e5a-7618187e56d6")
+	)
 	(label "Q_SD1"
 		(at 113.03 40.64 0)
 		(effects
@@ -7387,6 +8021,36 @@
 		)
 		(uuid "6ce65912-4cc8-4a3c-93e9-972c74b0191e")
 	)
+	(label "GPIO24"
+		(at 293.37 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e1d2c79-75e4-441c-a351-5c18b6348c91")
+	)
+	(label "GPIO12"
+		(at 288.29 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ec922a3-5189-4d66-a8cd-ca4391d2439c")
+	)
+	(label "GPIO23"
+		(at 293.37 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f4cc2d4-d864-4e76-bb91-6df8a9131a37")
+	)
 	(label "XOUT"
 		(at 367.03 176.53 180)
 		(effects
@@ -7397,6 +8061,16 @@
 		)
 		(uuid "6f9574e5-aa96-494e-a439-bc374f1dd664")
 	)
+	(label "GPIO03"
+		(at 288.29 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "72c2164c-3507-4fd2-9941-4a4264decbe0")
+	)
 	(label "D-"
 		(at 247.65 57.15 180)
 		(effects
@@ -7406,6 +8080,16 @@
 			(justify right bottom)
 		)
 		(uuid "748b4101-18b6-4984-ad15-58e2b501f2d7")
+	)
+	(label "GPIO22"
+		(at 293.37 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76af4d8b-bbac-49f7-94ef-2af167db0092")
 	)
 	(label "sD+"
 		(at 228.6 54.61 0)
@@ -7447,6 +8131,16 @@
 		)
 		(uuid "873a1c03-8228-4638-bd74-eee00e04e67e")
 	)
+	(label "GPIO14"
+		(at 288.29 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "89f40682-4f9b-4ff1-b6a0-75da74a648ae")
+	)
 	(label "GPIO16"
 		(at 402.59 243.84 180)
 		(effects
@@ -7466,6 +8160,16 @@
 			(justify left bottom)
 		)
 		(uuid "8c7453c9-8edf-43ac-ac28-d3b024cf464c")
+	)
+	(label "GPIO11"
+		(at 288.29 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8cfa98e8-7809-472a-9a27-3a860f6fa781")
 	)
 	(label "GPIO25"
 		(at 317.5 113.03 0)
@@ -7487,6 +8191,16 @@
 		)
 		(uuid "8ea915d2-0304-4a3a-95fb-333f57a922d6")
 	)
+	(label "SWDIO"
+		(at 293.37 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92053bba-346a-4dd7-98e9-070edb5f1ac1")
+	)
 	(label "Q_SD1"
 		(at 400.05 57.15 180)
 		(effects
@@ -7496,6 +8210,16 @@
 			(justify right bottom)
 		)
 		(uuid "93693f78-d2de-4bd5-9fb9-dab0dbc7aeb1")
+	)
+	(label "GPIO28"
+		(at 293.37 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94a0cc45-b90f-4369-82ea-1d7c69bf526b")
 	)
 	(label "D+"
 		(at 247.65 54.61 180)
@@ -7527,6 +8251,26 @@
 		)
 		(uuid "982c80f4-cdfe-4ec6-9b2c-3f9751743a55")
 	)
+	(label "SWCLK"
+		(at 293.37 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99476d24-7896-44ee-9a85-362a9b077214")
+	)
+	(label "GPIO10"
+		(at 288.29 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9b6b2fd2-bf9c-4060-a422-3bf783afa428")
+	)
 	(label "GPIO27"
 		(at 317.5 120.65 0)
 		(effects
@@ -7557,6 +8301,16 @@
 		)
 		(uuid "a54e2cf0-afb5-419f-a44f-6540ee958cae")
 	)
+	(label "GPIO26"
+		(at 293.37 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a61f61e9-2578-4c94-9ba3-daafc78454f7")
+	)
 	(label "Q_SD3"
 		(at 400.05 62.23 180)
 		(effects
@@ -7566,6 +8320,26 @@
 			(justify right bottom)
 		)
 		(uuid "ae5181c9-be67-4117-84c5-6d4306eb8255")
+	)
+	(label "VSYS"
+		(at 293.37 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae6c3b4d-0443-40b3-a6b5-5f831b2b55b9")
+	)
+	(label "GPIO21"
+		(at 293.37 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae7b0038-ab2b-45d8-97ae-f8632ea612a6")
 	)
 	(label "GPIO28"
 		(at 317.5 123.19 0)
@@ -7647,6 +8421,26 @@
 		)
 		(uuid "ca4d246f-5faa-4742-b941-bfa38f0d3341")
 	)
+	(label "GPIO29"
+		(at 293.37 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc620051-7a0f-4c28-b008-4f89b5dd154b")
+	)
+	(label "GPIO20"
+		(at 293.37 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccd5596d-dc5f-48b3-8dcb-5712780b9adb")
+	)
 	(label "Q_SDCLK"
 		(at 400.05 66.04 180)
 		(effects
@@ -7686,6 +8480,16 @@
 			(justify right bottom)
 		)
 		(uuid "d29b96d6-d2b3-4196-8608-022a22676faa")
+	)
+	(label "GPIO09"
+		(at 288.29 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d2d11785-8540-402f-98f6-55390c31fe91")
 	)
 	(label "Q_SD2"
 		(at 113.03 43.18 0)
@@ -7737,6 +8541,16 @@
 		)
 		(uuid "eac48e70-5427-4f5b-bec4-b3e7197aa22c")
 	)
+	(label "GPIO05"
+		(at 288.29 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eb918561-3c5c-4e15-8fcd-031ef2b2cabe")
+	)
 	(label "D+"
 		(at 312.42 39.37 0)
 		(effects
@@ -7766,6 +8580,16 @@
 			(justify right bottom)
 		)
 		(uuid "ef8b498a-3e8f-4133-b59e-f492fd47ca48")
+	)
+	(label "GPIO08"
+		(at 288.29 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fadd1623-75dc-4e7c-95af-c012e766cd99")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7878,7 +8702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 400.05 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7922,6 +8746,50 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 400.05 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 400.05 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 400.05 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C60489"
+			(at 400.05 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fe23f52a-871c-4b26-a329-20716ca0fe89")
 		)
@@ -7932,82 +8800,6 @@
 			(project "rp2040-board"
 				(path "/893e5a44-85a0-4015-9301-a12954441b17"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.42 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0b5e33fb-6c09-489f-bdc6-302ac7144bc1")
-		(property "Reference" "J21"
-			(at 309.626 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HalfHole"
-			(at 304.038 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.42 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ea141c8b-7cbd-456e-adbd-21c0f710816d")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -8046,7 +8838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 373.38 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -8080,6 +8872,50 @@
 			)
 		)
 		(property "Exclude from BOM" ""
+			(at 373.38 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C52923"
+			(at 373.38 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 373.38 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 373.38 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 373.38 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -8184,82 +9020,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.42 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0e0d0a28-6cc5-4535-b79b-de67235e39d3")
-		(property "Reference" "J20"
-			(at 309.626 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HalfHole"
-			(at 304.038 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.42 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "25cac0b4-4e7e-4fd1-9601-b1fec70c2401")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 302.26 153.67 0)
 		(unit 1)
@@ -8293,7 +9053,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 302.26 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -8337,6 +9097,50 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1525"
+			(at 302.26 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 302.26 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 302.26 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 302.26 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d44fd291-ad4c-49d9-a097-e104c03dd005")
 		)
@@ -8347,82 +9151,6 @@
 			(project "rp2040-board"
 				(path "/893e5a44-85a0-4015-9301-a12954441b17"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.42 52.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1189c38a-5b11-48fc-9d8a-e8f1e7f582df")
-		(property "Reference" "J4"
-			(at 309.626 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HalfHole"
-			(at 304.038 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.42 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a266413d-fbc1-4b9e-a87c-f3c4b4cc8faf")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -8515,6 +9243,28 @@
 			)
 		)
 		(property "Exclude from BOM" ""
+			(at 346.71 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 346.71 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C20625731"
 			(at 346.71 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -8810,6 +9560,39 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 267.97 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 267.97 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 267.97 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3c35ac0d-679f-4ff2-ada8-afe40ba7d977")
 		)
@@ -8865,7 +9648,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 350.52 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -8899,6 +9682,50 @@
 			)
 		)
 		(property "Exclude from BOM" ""
+			(at 350.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1548"
+			(at 350.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 350.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 350.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 350.52 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -8958,7 +9785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 241.3 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -8992,6 +9819,50 @@
 			)
 		)
 		(property "Exclude from BOM" ""
+			(at 241.3 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C15525"
+			(at 241.3 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 241.3 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 241.3 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 241.3 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -9128,7 +9999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 384.81 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -9162,6 +10033,50 @@
 			)
 		)
 		(property "Exclude from BOM" ""
+			(at 384.81 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 384.81 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 384.81 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 384.81 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 384.81 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -9260,158 +10175,6 @@
 			(project "rp2040-board"
 				(path "/893e5a44-85a0-4015-9301-a12954441b17"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.42 123.19 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1e49c5d2-cde0-4c0e-810e-7f867ff70b04")
-		(property "Reference" "J27"
-			(at 309.626 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HalfHole"
-			(at 304.038 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.42 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "41e4d00a-956e-429c-9ce7-c5bd01b614f4")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.42 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "20bfc77a-b786-4115-88ea-5d2cb8182dea")
-		(property "Reference" "J9"
-			(at 309.626 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HalfHole"
-			(at 304.038 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.42 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "498e2823-abbe-4a34-b2fe-c58ed260611e")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -9567,83 +10330,6 @@
 			(project "rp2040-board"
 				(path "/893e5a44-85a0-4015-9301-a12954441b17"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 402.59 114.3 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2888c992-e3db-4016-b09a-34dbb1a07430")
-		(property "Reference" "J31"
-			(at 405.384 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HalfHole"
-			(at 402.59 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 402.59 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 402.59 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 402.59 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "21df302c-a899-4798-8f16-53b1e8d1552a")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J31")
 					(unit 1)
 				)
 			)
@@ -9834,7 +10520,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 356.87 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -9878,6 +10564,50 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 356.87 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 356.87 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 356.87 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C11702"
+			(at 356.87 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ac264780-8a24-4fe5-a857-e539fcf16467")
 		)
@@ -9888,82 +10618,6 @@
 			(project "rp2040-board"
 				(path "/893e5a44-85a0-4015-9301-a12954441b17"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 402.59 116.84 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "31122c39-80cb-4caa-8c92-b920156f58d3")
-		(property "Reference" "J32"
-			(at 405.384 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HalfHole"
-			(at 402.59 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 402.59 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 402.59 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 402.59 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "29157cb0-fdd9-4fa4-b159-17a60edcedd3")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J32")
 					(unit 1)
 				)
 			)
@@ -10224,6 +10878,39 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 232.41 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 232.41 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 232.41 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "54be732e-3820-4618-a8f4-02351f9ff168")
 		)
@@ -10273,7 +10960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 161.29 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10307,6 +10994,50 @@
 			)
 		)
 		(property "Exclude from BOM" ""
+			(at 161.29 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 161.29 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 161.29 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 161.29 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 161.29 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10489,158 +11220,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.42 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4bcb366f-f1c0-49b0-9510-b60d3ec442b0")
-		(property "Reference" "J8"
-			(at 309.626 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HalfHole"
-			(at 304.038 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.42 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cd23d989-3796-4262-96b5-bc5e74a2c03a")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.42 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4bcdb9f1-4710-4725-8259-b7fa402b0052")
-		(property "Reference" "J5"
-			(at 309.626 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HalfHole"
-			(at 304.038 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.42 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "369355ee-3c9e-43d8-98db-ff874dbec6d4")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 312.42 153.67 0)
 		(unit 1)
@@ -10674,7 +11253,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 312.42 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -10708,6 +11287,50 @@
 			)
 		)
 		(property "Exclude from BOM" ""
+			(at 312.42 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 312.42 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 312.42 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 312.42 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 312.42 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -10890,158 +11513,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.42 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5260ebee-b8a1-4b96-b2f8-b631e1a70a3a")
-		(property "Reference" "J26"
-			(at 309.626 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HalfHole"
-			(at 304.038 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.42 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b480c49b-7806-431e-9a91-91cfb5389179")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.42 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "530e079e-fbec-4752-ad4a-13b4315ca271")
-		(property "Reference" "J14"
-			(at 309.626 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HalfHole"
-			(at 304.038 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.42 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5c7b20f8-c099-45da-94b4-ad4b8f76db1e")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 115.57 27.94 0)
 		(unit 1)
@@ -11074,7 +11545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 115.57 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11108,6 +11579,50 @@
 			)
 		)
 		(property "Exclude from BOM" ""
+			(at 115.57 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 115.57 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 115.57 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 115.57 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C60489"
 			(at 115.57 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11167,7 +11682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 332.74 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -11201,6 +11716,50 @@
 			)
 		)
 		(property "Exclude from BOM" ""
+			(at 332.74 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 332.74 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 332.74 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 332.74 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 332.74 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -11335,6 +11894,39 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 387.35 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 387.35 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 387.35 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "77bb8cd1-d1a2-4341-89a2-659b82904f19")
 		)
@@ -11384,7 +11976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 342.9 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -11428,6 +12020,50 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1525"
+			(at 342.9 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 342.9 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 342.9 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 342.9 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "018ffd87-3d23-433f-bdbd-efa2954b1c5d")
 		)
@@ -11438,82 +12074,6 @@
 			(project "rp2040-board"
 				(path "/893e5a44-85a0-4015-9301-a12954441b17"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.674 181.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5e814d50-eb44-4961-8e62-a5de79188402")
-		(property "Reference" "J29"
-			(at 310.134 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HalfHole"
-			(at 303.784 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.674 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.674 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.674 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3dcc3448-dbe0-4d21-ba5b-f8f30a3c9c86")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J29")
 					(unit 1)
 				)
 			)
@@ -11675,82 +12235,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.42 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "68340eb2-79ef-477a-a288-dfeb83164ec9")
-		(property "Reference" "J19"
-			(at 309.626 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HalfHole"
-			(at 304.038 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.42 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a24edeca-eb30-47b0-a3f6-b382ab487dc4")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 283.21 33.02 0)
 		(unit 1)
@@ -11784,7 +12268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 283.21 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -11818,6 +12302,50 @@
 			)
 		)
 		(property "Exclude from BOM" ""
+			(at 283.21 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C59461"
+			(at 283.21 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 283.21 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 283.21 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 283.21 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -11916,85 +12444,6 @@
 			(project "rp2040-board"
 				(path "/893e5a44-85a0-4015-9301-a12954441b17"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 322.834 189.23 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ee860e1-d94d-4138-8207-e87b7c513d38")
-		(property "Reference" "#PWR020"
-			(at 322.834 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 322.834 194.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 322.834 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 322.834 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 322.834 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bedb00b4-8c96-4030-81a4-7c602b0480b1")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -12112,7 +12561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 353.06 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -12146,6 +12595,50 @@
 			)
 		)
 		(property "Exclude from BOM" ""
+			(at 353.06 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 353.06 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 353.06 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 353.06 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 353.06 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -12280,6 +12773,39 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 387.35 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 387.35 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 387.35 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cefdc798-2fd3-493b-b8c4-a7670e732f0a")
 		)
@@ -12367,82 +12893,6 @@
 			(project "rp2040-board"
 				(path "/893e5a44-85a0-4015-9301-a12954441b17"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.42 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7afcd47c-3fb9-4b2d-9188-19727ebc2231")
-		(property "Reference" "J24"
-			(at 309.626 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HalfHole"
-			(at 304.038 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.42 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fe63c180-4f1a-4b51-897d-491ab6144c1f")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -12559,7 +13009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 363.22 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -12603,6 +13053,50 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1525"
+			(at 363.22 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 363.22 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 363.22 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 363.22 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4b91ce37-5075-457f-8aeb-f14d2e786a17")
 		)
@@ -12613,161 +13107,6 @@
 			(project "rp2040-board"
 				(path "/893e5a44-85a0-4015-9301-a12954441b17"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 322.834 179.07 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8382218e-0683-49a7-9c39-06f03ff076bd")
-		(property "Reference" "#PWR019"
-			(at 322.834 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 322.834 173.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 322.834 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 322.834 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 322.834 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1cb3f875-7699-4f7c-a141-8c19bf00d668")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.42 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "87b1076c-c73d-47ff-84e8-8935244569b3")
-		(property "Reference" "J28"
-			(at 309.626 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HalfHole"
-			(at 304.038 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.42 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c29d311f-e502-4bc3-8cf1-d696d3cf1bb6")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J28")
 					(unit 1)
 				)
 			)
@@ -12807,7 +13146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 364.49 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -12841,6 +13180,50 @@
 			)
 		)
 		(property "Exclude from BOM" ""
+			(at 364.49 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C52923"
+			(at 364.49 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 364.49 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 364.49 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 364.49 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -13043,6 +13426,39 @@
 			)
 		)
 		(property "Exclude from BOM" ""
+			(at 358.14 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 358.14 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 358.14 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 358.14 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -13390,8 +13806,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.42 72.39 0)
+		(lib_id "power:+3V3")
+		(at 288.29 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13399,9 +13815,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8edf4b35-9534-4ddb-9e62-4827e5f56403")
-		(property "Reference" "J12"
-			(at 309.626 72.39 0)
+		(uuid "9289e70f-8830-4fb4-912b-7cfaecea07b6")
+		(property "Reference" "#PWR019"
+			(at 288.29 82.55 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13410,8 +13827,8 @@
 				)
 			)
 		)
-		(property "Value" "HalfHole"
-			(at 304.038 72.39 0)
+		(property "Value" "+3V3"
+			(at 284.48 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13421,7 +13838,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 312.42 72.39 0)
+			(at 288.29 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13432,7 +13849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 312.42 72.39 0)
+			(at 288.29 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13442,84 +13859,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.42 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "314608f5-d461-49bd-a003-22fc6dd8a6a0")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.674 186.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "90ab09e9-42f6-4b8d-be47-baef005f0fc2")
-		(property "Reference" "J30"
-			(at 310.134 186.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HalfHole"
-			(at 303.784 186.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.674 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.674 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.674 186.69 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 288.29 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13530,88 +13871,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "38440fce-5d4c-492e-b241-22115f65da87")
+			(uuid "6461a719-01a2-4cac-82cf-81105bc41aef")
 		)
 		(instances
 			(project "rp2040-board"
 				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.42 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "935d3d35-4dc6-42e1-a1bc-9e6aaaf12ba9")
-		(property "Reference" "J3"
-			(at 309.626 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HalfHole"
-			(at 304.038 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.42 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c2a3e213-94ce-42a0-ad0c-efda3ac9e7db")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J3")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -13715,6 +13980,39 @@
 			)
 		)
 		(property "Exclude from BOM" "1"
+			(at 384.81 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 384.81 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 384.81 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 384.81 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -13843,8 +14141,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
-		(at 391.16 243.84 0)
+		(lib_id "custom:2.0mm_16x1_castellated_half_hole")
+		(at 278.13 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13852,10 +14150,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b79ca9f-0781-4134-802b-2b6741fc71ee")
-		(property "Reference" "D2"
-			(at 391.2235 237.49 0)
+		(uuid "9d3dd0b0-fcf7-4ac2-a4b4-a3de01a1c7b5")
+		(property "Reference" "J3"
+			(at 278.13 75.946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13864,8 +14161,8 @@
 				)
 			)
 		)
-		(property "Value" "LED_Small"
-			(at 391.2235 240.03 0)
+		(property "Value" ""
+			(at 278.13 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13874,8 +14171,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 391.16 243.84 90)
+		(property "Footprint" "custom:2.0mm_16x1_castellated"
+			(at 278.13 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13886,7 +14183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 391.16 243.84 90)
+			(at 278.13 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13896,8 +14193,8 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 391.16 243.84 0)
+		(property "Description" ""
+			(at 278.13 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13907,103 +14204,58 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 391.16 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "1"
+			(uuid "b3fbefcc-5177-4e89-b4cb-de0dd9d14aeb")
 		)
 		(pin "2"
-			(uuid "929ea9dc-0718-40e3-8013-260600572a5a")
+			(uuid "3b6ef9a0-38dd-45a8-b7e2-07033982d550")
 		)
-		(pin "1"
-			(uuid "1a0f9098-e098-4204-857d-f0d996f2ef4a")
+		(pin "4"
+			(uuid "2d2bc31a-11f3-4a4b-b684-4d518e9c7767")
 		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "D2")
-					(unit 1)
-				)
-			)
+		(pin "3"
+			(uuid "84c33dae-37ac-405c-86a5-fbaca322c34d")
 		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.42 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9b79dda5-a736-4d54-96fb-638230211e31")
-		(property "Reference" "J25"
-			(at 309.626 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "5"
+			(uuid "4d215169-b1c9-4d4b-a87f-e334c59ad5ee")
 		)
-		(property "Value" "HalfHole"
-			(at 304.038 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "6"
+			(uuid "ef0e0042-b3a4-44a0-8d01-57ee7130ea31")
 		)
-		(property "Footprint" ""
-			(at 312.42 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "7"
+			(uuid "fe84ec3a-d5a6-4823-b3ff-92bc1662e7bc")
 		)
-		(property "Datasheet" ""
-			(at 312.42 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "8"
+			(uuid "3e75341e-ca99-4c28-87d0-bb69b36d1a01")
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.42 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "12"
+			(uuid "75b1ab9e-8f5b-4249-a248-498b611fffea")
 		)
-		(pin "1"
-			(uuid "52e2c64d-ffe9-49fe-aeaa-ca2922814064")
+		(pin "13"
+			(uuid "648a81ce-aac8-47b8-a399-042ac20bd2de")
+		)
+		(pin "14"
+			(uuid "4000a9ea-32a2-4a2a-ab2b-73dfdafaaf90")
+		)
+		(pin "9"
+			(uuid "5126ec9a-db03-4ee3-81b1-3f44c7eaac31")
+		)
+		(pin "10"
+			(uuid "62183e81-c3f4-4eef-aba6-e7266f5332ee")
+		)
+		(pin "11"
+			(uuid "60dab138-3d89-4d06-98ff-b8fbfc0c6133")
+		)
+		(pin "15"
+			(uuid "4e7f547e-7aec-41fa-a941-ba857903667f")
+		)
+		(pin "16"
+			(uuid "06000af5-f7ca-431c-b99e-2b17dc2d9016")
 		)
 		(instances
 			(project "rp2040-board"
 				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J25")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -14118,7 +14370,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 321.31 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -14152,6 +14404,50 @@
 			)
 		)
 		(property "Exclude from BOM" ""
+			(at 321.31 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 321.31 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 321.31 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 321.31 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25190"
 			(at 321.31 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -14210,7 +14506,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 342.9 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -14244,6 +14540,50 @@
 			)
 		)
 		(property "Exclude from BOM" ""
+			(at 342.9 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1548"
+			(at 342.9 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 342.9 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 342.9 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 342.9 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -14381,7 +14721,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 322.58 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -14415,6 +14755,50 @@
 			)
 		)
 		(property "Exclude from BOM" ""
+			(at 322.58 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 322.58 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 322.58 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 322.58 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 322.58 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -14474,7 +14858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 394.97 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -14518,6 +14902,50 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1525"
+			(at 394.97 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 394.97 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 394.97 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 394.97 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dc72a55d-5fa9-4a3f-8ae8-9d6d7d4d84bf")
 		)
@@ -14528,82 +14956,6 @@
 			(project "rp2040-board"
 				(path "/893e5a44-85a0-4015-9301-a12954441b17"
 					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.42 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "aed8ee52-7a49-4103-97c9-9fcc4df9311d")
-		(property "Reference" "J16"
-			(at 309.626 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HalfHole"
-			(at 304.038 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.42 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "718f169b-9176-4533-9403-cf5bd0fbc3f2")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -14785,7 +15137,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "5.1Kohm"
 			(at 219.71 31.242 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14795,7 +15147,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 219.71 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -14829,6 +15181,50 @@
 			)
 		)
 		(property "Exclude from BOM" ""
+			(at 219.71 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 219.71 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 219.71 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 219.71 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C27834"
 			(at 219.71 33.02 90)
 			(hide yes)
 			(show_name no)
@@ -14886,7 +15282,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 109.22 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -14920,6 +15316,50 @@
 			)
 		)
 		(property "Exclude from BOM" ""
+			(at 109.22 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 109.22 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 109.22 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 109.22 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C11702"
 			(at 109.22 33.02 90)
 			(hide yes)
 			(show_name no)
@@ -15025,6 +15465,50 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 238.76 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 238.76 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 238.76 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C7519"
+			(at 238.76 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "e6250fb8-bf82-4850-b4af-d3f6734b227b")
 		)
@@ -15047,82 +15531,6 @@
 			(project "rp2040-board"
 				(path "/893e5a44-85a0-4015-9301-a12954441b17"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.42 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b82cb611-9cb7-4cf9-be15-c8595eb7ee8c")
-		(property "Reference" "J6"
-			(at 309.626 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HalfHole"
-			(at 304.038 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.42 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4d7401df-f598-4a3d-9026-29e540fdae88")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -15285,83 +15693,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 251.46 22.86 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c2aef831-91ef-4914-a013-d066a9bbf99c")
-		(property "Reference" "J2"
-			(at 254.254 22.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HalfHole"
-			(at 251.46 20.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 251.46 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3a813b45-9def-4164-85f1-7afce72786b5")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 374.65 156.21 0)
 		(mirror y)
@@ -15517,82 +15848,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.42 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cf71f9f4-c72a-4331-8f6e-56006aa462ed")
-		(property "Reference" "J7"
-			(at 309.626 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HalfHole"
-			(at 304.038 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.42 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aa7397a5-aa87-4c4b-a3ee-ee26680062a2")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 219.71 35.56 90)
 		(mirror x)
@@ -15614,7 +15869,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "5.1Kohm"
 			(at 219.71 37.338 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15624,7 +15879,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 219.71 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -15668,6 +15923,50 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 219.71 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 219.71 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 219.71 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C27834"
+			(at 219.71 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b5a8c0a4-bf9b-4349-8872-50fcdb1ca0ec")
 		)
@@ -15678,82 +15977,6 @@
 			(project "rp2040-board"
 				(path "/893e5a44-85a0-4015-9301-a12954441b17"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.42 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d459d0a3-63d9-43d1-8361-564d73af3780")
-		(property "Reference" "J13"
-			(at 309.626 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HalfHole"
-			(at 304.038 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.42 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d0605953-01fb-4f3c-8054-8cf17e32c81b")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -15858,7 +16081,7 @@
 				)
 			)
 		)
-		(property "Value" "33Ohm"
+		(property "Value" "330Ohm"
 			(at 379.73 241.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15868,7 +16091,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 379.73 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -15901,6 +16124,50 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 379.73 243.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 379.73 243.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 379.73 243.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C23138"
+			(at 379.73 243.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e4550fb8-9f15-499a-be1a-4102f217e887")
 		)
@@ -15911,234 +16178,6 @@
 			(project "rp2040-board"
 				(path "/893e5a44-85a0-4015-9301-a12954441b17"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.42 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d90758d1-a918-4b43-ba14-b8a080ea6ef5")
-		(property "Reference" "J11"
-			(at 309.626 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HalfHole"
-			(at 304.038 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.42 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8808c919-67d7-48f4-9c99-4073c4f5ce08")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.42 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d9cc208e-8331-4664-a5b5-295b30e57a7c")
-		(property "Reference" "J15"
-			(at 309.626 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HalfHole"
-			(at 304.038 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.42 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fb1b398c-4093-47f7-bf77-f8e9c007a204")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.42 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "da596a03-a4fd-4e40-873c-ad26adeb9326")
-		(property "Reference" "J18"
-			(at 309.626 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HalfHole"
-			(at 304.038 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.42 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0d9f2857-9f94-46e3-9409-be2de0a1979d")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -16217,158 +16256,6 @@
 			(project "rp2040-board"
 				(path "/893e5a44-85a0-4015-9301-a12954441b17"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.42 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "df5a8d21-f553-42e6-bebf-347f7d159998")
-		(property "Reference" "J22"
-			(at 309.626 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HalfHole"
-			(at 304.038 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.42 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4b9c5174-2a59-4607-92c5-5959352001e5")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.42 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dffaff06-c3e7-4bb9-9044-aeddc996af9f")
-		(property "Reference" "J10"
-			(at 309.626 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HalfHole"
-			(at 304.038 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.42 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "865de23b-e8ea-426d-a171-ca0b5fefb192")
-		)
-		(instances
-			(project "rp2040-board"
-				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -16640,7 +16527,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 321.31 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -16674,6 +16561,50 @@
 			)
 		)
 		(property "Exclude from BOM" ""
+			(at 321.31 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 321.31 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 321.31 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 321.31 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25190"
 			(at 321.31 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -16733,7 +16664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 374.65 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -16767,6 +16698,50 @@
 			)
 		)
 		(property "Exclude from BOM" ""
+			(at 374.65 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 374.65 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 374.65 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 374.65 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 374.65 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -16824,7 +16799,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 203.2 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -16858,6 +16833,50 @@
 			)
 		)
 		(property "Exclude from BOM" ""
+			(at 199.39 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 199.39 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 199.39 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 199.39 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C3020560"
 			(at 199.39 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -16917,6 +16936,127 @@
 			(project "rp2040-board"
 				(path "/893e5a44-85a0-4015-9301-a12954441b17"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:2.0mm_16x1_castellated_half_hole")
+		(at 303.53 118.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f0b6bcfd-9080-40a8-bcb5-54697e1a77e6")
+		(property "Reference" "J2"
+			(at 303.53 75.692 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 303.53 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:2.0mm_16x1_castellated"
+			(at 303.53 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 303.53 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33e4aa23-a19f-4522-9c5f-28917da2c32e")
+		)
+		(pin "2"
+			(uuid "724f934c-cba7-4ea5-b9f1-b20bd75dd44b")
+		)
+		(pin "4"
+			(uuid "5d350d63-56c0-489c-b4c0-41947fd05224")
+		)
+		(pin "3"
+			(uuid "67723167-b57a-4d9f-bc58-ed93767bdad9")
+		)
+		(pin "5"
+			(uuid "58a7ef5f-0b51-459d-a4cc-55aa748a2f4e")
+		)
+		(pin "6"
+			(uuid "707e50ad-076c-498b-ac5e-f0e6d391c312")
+		)
+		(pin "7"
+			(uuid "86e338e1-8f72-4bef-bf0f-26c3dce4b5d1")
+		)
+		(pin "8"
+			(uuid "791cea65-65e2-46d2-93c0-372a875d48b4")
+		)
+		(pin "12"
+			(uuid "cdea1b0a-0940-45d6-a38e-8a20a63ec440")
+		)
+		(pin "13"
+			(uuid "3e649aba-0e48-4a5e-89b8-bb97302247ae")
+		)
+		(pin "14"
+			(uuid "f320e334-1f5f-4a4f-a518-e3b39439113c")
+		)
+		(pin "9"
+			(uuid "d9c21981-50d5-4f67-90af-f03e3ee8a8be")
+		)
+		(pin "10"
+			(uuid "ff34978a-3f59-47aa-bcb7-d8cc9df49078")
+		)
+		(pin "11"
+			(uuid "f8ef3fef-8750-4f61-aa43-e5ba7fafe822")
+		)
+		(pin "15"
+			(uuid "804edcae-8279-437f-82f5-3e310cb56610")
+		)
+		(pin "16"
+			(uuid "4ee2ce36-c763-4543-ae2f-76ab62ec634d")
+		)
+		(instances
+			(project "rp2040-board"
+				(path "/893e5a44-85a0-4015-9301-a12954441b17"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -17031,6 +17171,39 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 134.62 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 134.62 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 134.62 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "acab0b07-cd25-4eaf-84a7-2934fdafc248")
 		)
@@ -17065,8 +17238,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.42 110.49 0)
+		(lib_id "power:GND")
+		(at 290.83 116.84 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17074,9 +17248,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f3c83844-0554-4a17-a1e1-9567e5d750cb")
-		(property "Reference" "J23"
-			(at 309.626 110.49 0)
+		(uuid "f1cc6de4-a762-467e-a349-b93fae65f124")
+		(property "Reference" "#PWR044"
+			(at 290.83 123.19 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17085,8 +17260,8 @@
 				)
 			)
 		)
-		(property "Value" "HalfHole"
-			(at 304.038 110.49 0)
+		(property "Value" "GND"
+			(at 290.83 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17096,7 +17271,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 312.42 110.49 0)
+			(at 290.83 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17107,7 +17282,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 312.42 110.49 0)
+			(at 290.83 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17117,8 +17292,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.42 110.49 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 290.83 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17129,20 +17304,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "f57b8372-c190-408e-a698-de59c4db5395")
+			(uuid "10c14346-f7e1-45c9-83cd-52f02555827c")
 		)
 		(instances
 			(project "rp2040-board"
 				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J23")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 312.42 95.25 0)
+		(lib_id "easyeda2kicad:0603Whitelight_C2290")
+		(at 388.62 242.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17150,9 +17325,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f4dd1a1a-645a-4e61-b329-cf786356972c")
-		(property "Reference" "J17"
-			(at 309.626 95.25 0)
+		(fields_autoplaced yes)
+		(uuid "f57f03c9-0a76-4581-ac60-e79c3227d9be")
+		(property "Reference" "LED1"
+			(at 387.35 234.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17161,8 +17337,8 @@
 				)
 			)
 		)
-		(property "Value" "HalfHole"
-			(at 304.038 95.25 0)
+		(property "Value" "0603White light_C2290"
+			(at 387.35 237.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17171,8 +17347,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 312.42 95.25 0)
+		(property "Footprint" "easyeda2kicad:LED0603-R-RD_WHITE"
+			(at 388.62 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17182,8 +17358,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 312.42 95.25 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 388.62 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17193,8 +17369,74 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 312.42 95.25 0)
+		(property "Description" "0603"
+			(at 388.62 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 388.62 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0603W"
+			(at 388.62 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 388.62 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 388.62 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 388.62 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 388.62 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17205,12 +17447,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "88c022fd-cb08-42d7-ae9f-a7d2d69f49d3")
+			(uuid "b6c7540f-f86c-456f-aa27-39fe4fcba3fa")
+		)
+		(pin "2"
+			(uuid "ebcfd2a1-35d3-4363-9a88-62da984f7270")
 		)
 		(instances
 			(project "rp2040-board"
 				(path "/893e5a44-85a0-4015-9301-a12954441b17"
-					(reference "J17")
+					(reference "LED1")
 					(unit 1)
 				)
 			)
