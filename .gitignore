@@ -43,3 +43,4 @@ fp-info-cache
 *.kicad_prl
 /kicadproj/fp-lib-table
 /kicadproj/production
+/production
