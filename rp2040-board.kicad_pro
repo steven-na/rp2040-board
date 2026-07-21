@@ -601,7 +601,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "~/Downloads/rp2040-board-bom.csv",
+    "bom_export_filename": "~/Downloads/saria.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -863,7 +863,7 @@
         "uuid": "893e5a44-85a0-4015-9301-a12954441b17"
       }
     ],
-    "used_designators": "U1-5,J1-34,CN1,R1-10,LED1-3,USB1,#PWR1-49,Y1,C1-18,D1-2,SW1-3,H1,USBC1",
+    "used_designators": "USBC1,H1,SW1-3,D1-2,C1-18,Y1,#PWR1-49,USB1,LED1-3,R1-10,CN1,J1-34,U1-5",
     "variants": []
   },
   "sheets": [
